@@ -1,0 +1,46 @@
+G3P_HUMAN (P04406):
+CHAIN 2 335 Glyceraldehyde-3-phosphate dehydrogenase
+Theoretical pI: 8.58
+Molecular weight (average): 35922.02
+ALBU_HUMAN (P02768):
+CHAIN 25 609 Albumin
+Theoretical pI: 5.67
+Molecular weight (average): 66472.21
+ENTK_HUMAN (P98073):
+CHAIN 2 784 Enteropeptidase non-catalytic heavy chain
+Theoretical pI: 4.74
+Molecular weight (average): 86567.14
+CHAIN 785 1019 Enteropeptidase catalytic light chain
+Theoretical pI: 5.74
+Molecular weight (average): 26254.82
+CO2_BOVIN (Q3SYW2):
+CHAIN 21 750 Complement C2
+Theoretical pI: 8.75
+Molecular weight (average): 80821.01
+CHAIN 21 244 Complement C2b fragment
+Theoretical pI: 8.86
+Molecular weight (average): 24117.16
+CHAIN 245 750 Complement C2a fragment
+Theoretical pI: 8.55
+Molecular weight (average): 56721.87
+HGF_CANLF (Q867B7):
+CHAIN 32 494 Hepatocyte growth factor alpha chain
+Theoretical pI: 8.21
+Molecular weight (average): 53644.50
+CHAIN 495 730 Hepatocyte growth factor beta chain
+Theoretical pI: 8.80
+Molecular weight (average): 26301.42
+ACH1_LONAC (P23604):
+CHAIN 1 213 Achelase-1
+Theoretical pI: 9.44
+Molecular weight (average): 22472.10
+FA12_CAVPO (Q04962):
+CHAIN 19 358 Coagulation factor XIIa heavy chain
+Theoretical pI: 8.71
+Molecular weight (average): 38920.06
+CHAIN 359 603 Coagulation factor XIIa light chain
+Theoretical pI: 4.97
+Molecular weight (average): 26112.26
+H2QKV6_PANTR (H2QKV6):
+Theoretical pI: 4.87
+Molecular weight (average): 113120.48-
