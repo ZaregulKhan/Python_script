@@ -1,0 +1,5 @@
+Interpretation
+ Malignant (class 0) and Benign (class 1) tumors are predicted with high precision
+and recall.
+ Accuracy = ~96% on test data.
+ The model generalizes well even with just 10 features selected.
