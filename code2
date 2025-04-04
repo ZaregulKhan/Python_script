@@ -8,19 +8,19 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report
 
 def main():
-    # 1. Load the toy dataset
+    # 1. Load a toy gene expression dataset (Breast Cancer from sklearn)
     data = load_breast_cancer()
-    X, y = data.data, data.target
+    X, y = data.data, data.target  # Features and Labels
 
-    # 2. Normalize
+    # 2. Normalize the data
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
 
-    # 3. Feature selection
+    # 3. Feature selection: Select top 10 genes/features using ANOVA F-test
     selector = SelectKBest(score_func=f_classif, k=10)
     X_selected = selector.fit_transform(X_scaled, y)
 
-    # 4. Train-test split
+    # 4. Split into train and test sets
     X_train, X_test, y_train, y_test = train_test_split(
         X_selected, y, test_size=0.2, random_state=42
     )
@@ -31,12 +31,8 @@ def main():
 
     # 6. Predict and evaluate
     y_pred = model.predict(X_test)
-    report_dict = classification_report(y_test, y_pred, target_names=data.target_names, output_dict=True)
-    report_df = pd.DataFrame(report_dict).transpose()
-
-    # Print results as a table
-    print("\nClassification Report (Table Format):")
-    print(report_df.round(3))  # Rounded to 3 decimal places
+    print(classification_report(y_test, y_pred, target_names=data.target_names))
 
 if __name__ == "__main__":
     main()
+
